@@ -6,7 +6,7 @@
 }
 
 .card {
-    margin-bottom: 15px;
+    margin: 0 20px 15px 20px;
     position: relative;
     width: 320px;
     height: 480px;
@@ -94,6 +94,9 @@
 }
 
 @media (max-width: 1199px) {
+    .card {
+        margin: 0 20px 15px 20px;
+    }
     .wrap {
         margin: 0 0 40px 0;
     }
